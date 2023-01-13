@@ -26,12 +26,12 @@
 <body>
 <!-- ddsd -->
     <script src="./js/script.js"></script>
-    <div class="main">
+    <div class="main" id="main">
         <div class="menu">
             <div class="menu-body">
                 <img class="logo" src="./img/ne-logo.svg"/>
                 <menu class="menu-items">
-                    <a href="#">Главная</a><a href="#">Сила семьи</a><a href="#">Результаты</a><a href="#">Контакты</a>
+                    <a href="#main">Главная</a><a href="#szs">Сила семьи</a><a href="#results">Результаты</a><a href="#contacts">Контакты</a>
                 </menu>
             </div>
             <hr/>
@@ -88,6 +88,10 @@
                     </ul>
                 </div>
 
+            </div>
+
+            <div class="cta block">
+                <a href="#contacts">Обратиться</a>
             </div>
 
             <div class="block line"><hr/></div>
@@ -199,7 +203,7 @@
                 </div>
             </div>
 
-            <div class="block line"><hr/></div>
+            <div id="results" class="block line"><hr/></div>
 
 
             <div class="block results">
@@ -212,7 +216,7 @@
             <div class="block line"><hr/></div>
 
 
-            <div class="contacts block">
+            <div class="contacts block" id="contacts">
                 <div class="col1" >
                     <div class="brick1"></div>
                     <h2>ОБРАТИТЬСЯ К НАМ</h2>
@@ -243,10 +247,10 @@
         <div class="footer">
             <!-- <img src="./img/ne-logo-white.svg"/> -->
             <div class="f-menu">
-                <a href="#">Главная</a>
-                <a href="#">Сила Семьи</a>
-                <a href="#">Контакты</a>
-                <a href="#">Результаты</a>
+                <a href="#main">Главная</a>
+                <a href="#szs">Сила Семьи</a>
+                <a href="#contacts">Контакты</a>
+                <a href="#results">Результаты</a>
             </div>
             <div class="law">Автономная некоммерческая организация <br/>
                 социальной поддержки граждан <b>«Выход есть»</b><br/>

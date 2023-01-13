@@ -547,13 +547,14 @@ ul.szs li {
     height: 4px;
     background: #333333ff
 }
-@media  (max-width: 940px) {
-    .menu hr {
+@media (max-width: 940px) {
+    .line hr {
         border: 0;
         height: calc(4vw/9.4);
+        /* height: 1px; */
         background: #333333ff
     }  
-}
+} 
 
 
 .programs {
@@ -739,6 +740,65 @@ ul.szs li {
     }
 }
 
+.cta {
+    text-align: right;
+} .cta a {
+    display: inline-block;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: none;
+    background: 
+        /* url(../img/ne-bull.svg) center right no-repeat content-box, */
+        /* linear-gradient(-45deg, #ffffff00 0 45%, white 45% 55%, #ffffff00 55% 100%), */
+        linear-gradient(90deg, #7bcc03ff 0 20px, white 20px 32px, #ffffff00 20px 100%),
+        linear-gradient(0deg, #333333ff 0 3px, #ffffff00 3px 100%),
+        linear-gradient(180deg, #333333ff 0 3px, #ffffff00 3px 100%),
+        linear-gradient(270deg, #333333ff 0 3px, #ffffff00 3px 100%)
+        ;
+    border: none;
+    font-weight: 900;
+    font-size: 18px;
+    color: #333333ff;
+    padding: 12px;
+    min-width: 216px;
+} .cta a:hover {
+    background-image: url(../img/ne-bull.svg);
+    background: 
+        url(../img/ne-bull.svg) center right no-repeat content-box, 
+        /* linear-gradient(-45deg, #ffffff00 0 45%, #eef10aff 45% 55%, #ffffff00 55% 100%), */
+        linear-gradient(90deg, #eef10aff 0 20px, white 20px 32px, #ffffff00 20px 100%),
+        linear-gradient(0deg, #333333ff 0 3px, #ffffff00 3px 100%),
+        linear-gradient(180deg, #333333ff 0 3px, #ffffff00 3px 100%),
+        linear-gradient(270deg, #333333ff 0 3px, #ffffff00 3px 100%)
+        ;
+} @media (max-width: 940px) {
+    .cta a {
+        background: 
+            /* url(../img/ne-bull.svg) center right no-repeat content-box, */
+            /* linear-gradient(-45deg, #ffffff00 0 45%, white 45% 55%, #ffffff00 55% 100%), */
+            /* linear-gradient(90deg, RED 0 calc(20vw/9.4), white calc(20vw/9.4) calc(32vw/9.4), #ffffff00 calc(32vw/9.4) 100%),
+            linear-gradient(0deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
+            linear-gradient(180deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
+            linear-gradient(270deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(vw/9.4) 100%) */
+            linear-gradient(90deg, red 0 calc(20vw/9.4), white calc(20vw/9.4) 32px, #ffffff00 20px 100%),
+            linear-gradient(0deg, #333333ff 0 3px, #ffffff00 3px 100%),
+            linear-gradient(180deg, #333333ff 0 3px, #ffffff00 3px 100%),
+            linear-gradient(270deg, #333333ff 0 3px, #ffffff00 3px 100%)
+        ;
+        font-size: calc(18vw/9.4);
+        padding: calc(12vw/9.4);
+        min-width: calc(216vw/9.4);
+    } .cta a:hover {
+        background: 
+            url(../img/ne-bull.svg) center right no-repeat content-box, 
+            /* linear-gradient(-45deg, #ffffff00 0 45%, #eef10aff 45% 55%, #ffffff00 55% 100%), */
+            linear-gradient(90deg, #eef10aff 0 20px, white 20px 32px, #ffffff00 20px 100%),
+            linear-gradient(0deg, #333333ff 0 3px, #ffffff00 3px 100%),
+            linear-gradient(180deg, #333333ff 0 3px, #ffffff00 3px 100%),
+            linear-gradient(270deg, #333333ff 0 3px, #ffffff00 3px 100%)
+            ;
+    }    
+}
 
 
 
