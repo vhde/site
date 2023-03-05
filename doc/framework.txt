@@ -1,0 +1,13 @@
+
+CSS FRAMEWORK
+
+sizes policy. There are 3 staes of the page:
+1. 940+ px
+	maximum size, 12 column grid, 1px = 1pt;
+2. 500 to 940px
+	smooth scaling 
+	1pt -> 1wv/9.4
+3. less then 500 px
+	mobile mode
+
+
