@@ -2,6 +2,7 @@
 
 html {
     scroll-behavior: smooth;
+	color-scheme: only light;
 }
 
 /* sizes policy. There are 3 staes of the page:
@@ -11,6 +12,7 @@ html {
 */
 
 body {
+	color-scheme: only light;
     font-family: 'Nunito Sans', sans-serif;
     /* background-color: lightgray; */
     /* text-align: center; */
@@ -862,6 +864,7 @@ ul.szs li {
     background-position-x: 80px;
     background-position-y: 48px;
     background-color: #333333ff;
+	background-color: gray;
 }
 @media (max-width: 940px) {
     .footer {
