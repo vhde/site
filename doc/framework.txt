@@ -3,11 +3,21 @@ CSS FRAMEWORK
 
 sizes policy. There are 3 staes of the page:
 1. 940+ px
-	maximum size, 12 column grid, 1px = 1pt;
+	maximum size, 12 column grid
+	60 * 12 = 600 + 120 = 720
+	20 * 11 = 200 + 80 	= 220
+						------
+						  940
+	1px -> 1pt;
 2. 500 to 940px
 	smooth scaling 
 	1pt -> 1wv/9.4
 3. less then 500 px
 	mobile mode
+	4 column grid 20-100-20-...-20-100-20
+	smooth scaling
+	font: 		1pt -> 1wv/3
+	elements: 	1pt -> 1wv/5
+
 
 
