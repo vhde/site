@@ -844,7 +844,7 @@ ul.szs li {
             ;
     }    
 }
-}
+
 
 
 
@@ -864,7 +864,7 @@ ul.szs li {
     background-position-x: 80px;
     background-position-y: 48px;
     background-color: #333333ff;
-	background-color: gray;
+	/*background-color: gray; */
 }
 @media (max-width: 940px) {
     .footer {
