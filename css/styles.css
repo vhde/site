@@ -267,19 +267,28 @@ body {
 @media (max-width: 940px) {
     .img-one {
         width: calc(252vw/9.4);
-        background-size: calc(140vw/9.4) calc(140vw/9.4) ,calc(140vw/9.4) calc(140vw/9.4) ;
+        background-size: 
+			calc(140vw/9.4) calc(140vw/9.4),
+			calc(140vw/9.4) calc(140vw/9.4) 
+		;
         padding: calc(24vw/9.4);
     }
 }
 @media (max-width: 501px) {
     .img-one {
         width: calc(412vw/5);
-        background-size: calc(140vw/5) calc(140vw/5) ,calc(140vw/5) calc(140vw/5) ;
+        background-size: 
+			calc(140vw/5) calc(140vw/5),
+			calc(140vw/5) calc(140vw/5) 
+		;
         padding: calc(24vw/5);
     }
 }
 .szs .img-one {
-    background-image: url("../img/L-szs.svg"), url("../img/T-szs.svg");      
+    background-image: 
+		url("../img/L-szs.svg"), 
+		url("../img/T-szs.svg")
+	;      
 }
 
 
@@ -762,8 +771,18 @@ ul.szs li {
     text-decoration: none;
     background: 
         /* url(../img/ne-bull.svg) center right no-repeat content-box, */
-        /* linear-gradient(-45deg, #ffffff00 0 45%, white 45% 55%, #ffffff00 55% 100%), */
-        linear-gradient(90deg, #7bcc03ff 0 20px, white 20px 32px, #ffffff00 20px 100%),
+        /* linear-gradient(
+			-45deg, 
+			#ffffff00 0 45%, 
+			white 45% 55%, 
+			#ffffff00 55% 100%
+		), */
+        linear-gradient(
+			90deg, 
+			#7bcc03ff 0 20px, 
+			white 20px 32px, 
+			#ffffff00 20px 100%
+		),
         linear-gradient(0deg, #333333ff 0 3px, #ffffff00 3px 100%),
         linear-gradient(180deg, #333333ff 0 3px, #ffffff00 3px 100%),
         linear-gradient(270deg, #333333ff 0 3px, #ffffff00 3px 100%)
@@ -778,12 +797,34 @@ ul.szs li {
     background-image: url(../img/ne-bull.svg);
     background: 
         url(../img/ne-bull.svg) center right no-repeat content-box, 
-        /* linear-gradient(-45deg, #ffffff00 0 45%, #eef10aff 45% 55%, #ffffff00 55% 100%), */
-        linear-gradient(90deg, #eef10aff 0 20px, white 20px 32px, #ffffff00 20px 100%),
-        linear-gradient(0deg, #333333ff 0 3px, #ffffff00 3px 100%),
-        linear-gradient(180deg, #333333ff 0 3px, #ffffff00 3px 100%),
-        linear-gradient(270deg, #333333ff 0 3px, #ffffff00 3px 100%)
-        ;
+        /* linear-gradient(
+			-45deg, 
+			#ffffff00 0 45%, 
+			#eef10aff 45% 55%, 
+			#ffffff00 55% 100%
+		), */
+        linear-gradient(
+			90deg, 
+			#eef10aff 0 20px, 
+			white 20px 32px, 
+			#ffffff00 20px 100%
+		),
+        linear-gradient(
+			0deg, 
+			#333333ff 0 3px, 
+			#ffffff00 3px 100%
+		),
+        linear-gradient(
+			180deg, 
+			#333333ff 0 3px, 
+			#ffffff00 3px 100%
+		),
+        linear-gradient(
+			270deg, 
+			#333333ff 0 3px, 
+			#ffffff00 3px 100%
+		)
+	;
 } @media (max-width: 940px) {
     .cta a {
         background: 
@@ -832,7 +873,10 @@ ul.szs li {
 				#ffffff00 calc(3vw/9.4) 100%
 			),
             linear-gradient(
-				270deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%)
+				270deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(3vw/9.4) 100%
+			)
         ;
         font-size: calc(18vw/9.4);
         padding: calc(12vw/9.4);
@@ -840,16 +884,34 @@ ul.szs li {
     } .cta a:hover {
         background: 
             url(../img/ne-bull.svg) center right no-repeat content-box, 
-            /* linear-gradient(-45deg, #ffffff00 0 45%, #eef10aff 45% 55%, #ffffff00 55% 100%), */
+            /* linear-gradient(
+				-45deg, 
+				#ffffff00 0 45%, 
+				#eef10aff 45% 55%, 
+				#ffffff00 55% 100%
+			), */
             linear-gradient(
-                90deg, #eef10aff 0 calc(20vw/9.4), 
+                90deg, 
+				#eef10aff 0 calc(20vw/9.4), 
                 white calc(20vw/9.4) calc(32vw/9.4), 
                 #ffffff00 calc(20vw/9.4) 100%
             ),
-            linear-gradient(0deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
-            linear-gradient(180deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
-            linear-gradient(270deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%)
-            ;
+            linear-gradient(
+				0deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(3vw/9.4) 100%
+			),
+            linear-gradient(
+				180deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(3vw/9.4) 100%
+			),
+            linear-gradient(
+				270deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(3vw/9.4) 100%
+			)
+    	;
     }    
 } @media (max-width: 501px) {
 	.cta {
@@ -863,10 +925,27 @@ ul.szs li {
 				white 45% 55%, 
 				#ffffff00 55% 100%
 			), */
-            /* linear-gradient(90deg, RED 0 calc(20vw/9.4), white calc(20vw/9.4) calc(32vw/9.4), #ffffff00 calc(32vw/9.4) 100%),
-            linear-gradient(0deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
-            linear-gradient(180deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
-            linear-gradient(270deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(vw/9.4) 100%) */
+            /* linear-gradient(
+				90deg, 
+				RED 0 calc(20vw/9.4), 
+				white calc(20vw/9.4) calc(32vw/9.4), 
+				#ffffff00 calc(32vw/9.4) 100%
+			),
+            linear-gradient(
+				0deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(3vw/9.4) 100%
+			),
+            linear-gradient(
+				180deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(3vw/9.4) 100%
+			),
+            linear-gradient(
+				270deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(vw/9.4) 100%
+			) */
             linear-gradient(
 				90deg, 
 				#7bcc03ff 0 calc(20vw/5), 
