@@ -821,11 +821,28 @@ ul.szs li {
             linear-gradient(0deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
             linear-gradient(180deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
             linear-gradient(270deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(vw/9.4) 100%) */
-            linear-gradient(90deg, green 0 calc(20vw/5), white calc(20vw/5) 32px, #ffffff00 20px 100%),
-            linear-gradient(0deg, #333333ff 0 calc(3vw/5), #ffffff00 calc(3vw/5) 100%),
-            linear-gradient(180deg, #333333ff 0 calc(3vw/5), #ffffff00 calc(3vw/5) 100%),
-            linear-gradient(270deg, #333333ff 0 calc(3vw/5), #ffffff00 calc(3vw/5) 100%)
-        ;
+            linear-gradient(
+				90deg, 
+				#7bcc03ff 0 calc(20vw/5), 
+				white calc(20vw/5) calc(32vw/5), 
+				#ffffff00 calc(32vw/5) 100%
+			),
+            linear-gradient(
+				0deg, 
+				#333333ff 0 calc(3vw/5), 
+				#ffffff00 calc(3vw/5) 100%
+			),
+            linear-gradient(
+				180deg, 
+				#333333ff 0 calc(3vw/5), 
+				#ffffff00 calc(3vw/5) 100%
+			),
+            linear-gradient(
+				270deg, 
+				#333333ff 0 calc(3vw/5), 
+				#ffffff00 calc(3vw/5) 100%
+			)
+     	;
         font-size: calc(18vw/3);
         padding: calc(12vw/5);
         min-width: calc(388vw/5);
