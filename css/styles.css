@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+	color-scheme: only light;
+}
+
 html {
     scroll-behavior: smooth;
 	color-scheme: only light;
@@ -257,7 +261,8 @@ body {
     background-position: left bottom, right top;
     background-repeat: no-repeat, no-repeat;
     padding: 24px;
-    /* background: linear-gradient(-45deg, #7bcc03ff, rgba(255,0,0,0) 70.7%);    */
+    /* background: linear-gradient(
+		-45deg, #7bcc03ff, rgba(255,0,0,0) 70.7%);    */
 }
 @media (max-width: 940px) {
     .img-one {
@@ -783,15 +788,51 @@ ul.szs li {
     .cta a {
         background: 
             /* url(../img/ne-bull.svg) center right no-repeat content-box, */
-            /* linear-gradient(-45deg, #ffffff00 0 45%, white 45% 55%, #ffffff00 55% 100%), */
-            /* linear-gradient(90deg, RED 0 calc(20vw/9.4), white calc(20vw/9.4) calc(32vw/9.4), #ffffff00 calc(32vw/9.4) 100%),
-            linear-gradient(0deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
-            linear-gradient(180deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
-            linear-gradient(270deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(vw/9.4) 100%) */
-            linear-gradient(90deg, red 0 calc(20vw/9.4), white calc(20vw/9.4) 32px, #ffffff00 20px 100%),
-            linear-gradient(0deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
-            linear-gradient(180deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
-            linear-gradient(270deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%)
+            /* linear-gradient(
+				-45deg, 
+				#ffffff00 0 45%, 
+				white 45% 55%, 
+				#ffffff00 55% 100%
+			), */
+            /* linear-gradient(
+				90deg, 
+				RED 0 calc(20vw/9.4), 
+				white calc(20vw/9.4) calc(32vw/9.4), 
+				#ffffff00 calc(32vw/9.4) 100%
+			),
+            linear-gradient(
+				0deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(3vw/9.4) 100%
+			),
+            linear-gradient(
+				180deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(3vw/9.4) 100%
+			),
+            linear-gradient(
+				270deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(vw/9.4) 100%
+			), */
+            linear-gradient(
+				90deg, 
+				red 0 calc(20vw/9.4), 
+				white calc(20vw/9.4) calc(32vw/9.4), 
+				#ffffff00 calc(32vw/9.4) 100%
+			),
+            linear-gradient(
+				0deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(3vw/9.4) 100%
+			),
+            linear-gradient(
+				180deg, 
+				#333333ff 0 calc(3vw/9.4), 
+				#ffffff00 calc(3vw/9.4) 100%
+			),
+            linear-gradient(
+				270deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%)
         ;
         font-size: calc(18vw/9.4);
         padding: calc(12vw/9.4);
@@ -816,7 +857,12 @@ ul.szs li {
 	} .cta a {
         background: 
             /* url(../img/ne-bull.svg) center right no-repeat content-box, */
-            /* linear-gradient(-45deg, #ffffff00 0 45%, white 45% 55%, #ffffff00 55% 100%), */
+            /* linear-gradient(
+				-45deg, 
+				#ffffff00 0 45%, 
+				white 45% 55%, 
+				#ffffff00 55% 100%
+			), */
             /* linear-gradient(90deg, RED 0 calc(20vw/9.4), white calc(20vw/9.4) calc(32vw/9.4), #ffffff00 calc(32vw/9.4) 100%),
             linear-gradient(0deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
             linear-gradient(180deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
@@ -849,16 +895,33 @@ ul.szs li {
     } .cta a:hover {
         background: 
             url(../img/ne-bull.svg) center right no-repeat content-box, 
-            /* linear-gradient(-45deg, #ffffff00 0 45%, #eef10aff 45% 55%, #ffffff00 55% 100%), */
+            /* linear-gradient(
+				-45deg, 
+				#ffffff00 0 45%, 
+				#eef10aff 45% 55%, 
+				#ffffff00 55% 100%
+			), */
             linear-gradient(
-                90deg, #eef10aff 0 calc(20vw/9.4), 
-                white calc(20vw/9.4) calc(32vw/9.4), 
-                #ffffff00 calc(20vw/9.4) 100%
+                90deg, #eef10aff 0 calc(20vw/5), 
+                white calc(20vw/5) calc(32vw/5), 
+                #ffffff00 calc(32vw/5) 100%
             ),
-            linear-gradient(0deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
-            linear-gradient(180deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%),
-            linear-gradient(270deg, #333333ff 0 calc(3vw/9.4), #ffffff00 calc(3vw/9.4) 100%)
-            ;
+            linear-gradient(
+				0deg, 
+				#333333ff 0 calc(3vw/5), 
+				#ffffff00 calc(3vw/5) 100%
+			),
+            linear-gradient(
+				180deg, 
+				#333333ff 0 calc(3vw/5), 
+				#ffffff00 calc(3vw/5) 100%
+			),
+            linear-gradient(
+				270deg, 
+				#333333ff 0 calc(3vw/5), 
+				#ffffff00 calc(3vw/5) 100%
+			)
+		;
     }    
 }
 
