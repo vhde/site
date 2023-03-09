@@ -62,3 +62,5 @@
     [ ] kr.vhde@yandex.ru
 
     [ ] mob...
+
+	[ ] time for JS

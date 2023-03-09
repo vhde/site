@@ -1127,3 +1127,14 @@ ul.szs li {
 	}
 }
 
+#console {
+	width: 100%;
+	background: black;
+	color: white;
+	font-size: 10px;
+	line-height: 10px;
+	font-family: monospace;
+	margin: 0; 
+	padding: 0;
+	white-space: pre-wrap;
+}
