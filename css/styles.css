@@ -1127,14 +1127,31 @@ ul.szs li {
 	}
 }
 
+.spacer {
+	height: 25vh;
+	background-color: gray;
+	width: 100vw;
+}
+.cont {
+	position: fixed;
+	top: 75vh;
+	height: 25vh;
+	background-color: #bbbbbb;
+	overflow-y: scroll;
+}
 #console {
-	width: 100%;
+	width: 100vw;
 	background: black;
-	color: white;
+	color: green;
 	font-size: 10px;
 	line-height: 10px;
 	font-family: monospace;
 	margin: 0; 
 	padding: 0;
 	white-space: pre-wrap;
+}
+
+#console .c {
+	font-weight: bold;
+	color: yellow;
 }
