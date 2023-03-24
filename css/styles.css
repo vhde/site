@@ -1153,5 +1153,11 @@ ul.szs li {
 
 #console .c {
 	font-weight: bold;
-	color: yellow;
+	color: white;
 }
+
+#cons {
+	display: none;
+	background: red;
+}
+

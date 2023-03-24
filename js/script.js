@@ -1,3 +1,9 @@
+var conf = {
+	env: "",
+	console: false,
+	muteConsole: false
+};
+
 (function(){
 	function onPageLoad() {
 		document.getElementById("console").innerHTML += "!!! \n||:\n";
@@ -32,7 +38,13 @@
 			data[key] = value;
 		}
 		console.log(data['env']);
-		
+		conf.env = data['env'];
+		if (conf.env == 'dev') {
+			conf.console = true;
+			document.getElementById('cons').style.display = 'block';		
+		} else {
+			conf.muteConsole = true;
+		}
 	}
 
 	document.addEventListener("DOMContentLoaded", getHeaders);
@@ -48,7 +60,9 @@
 	var _c = 0;
 	var _oLog = console.log;
 	console.log = function(message) {
-		conPrint('<span class="c">' + _c + "</span> " + message);
+		if (!conf.muteConsole) {
+			conPrint('<span class="c">' + _c + "</span> " + message);
+		}
 		_oLog(message);
 		_c++;
 	}
