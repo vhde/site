@@ -1,3 +1,4 @@
 <filesMatch ".(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
-# Header set Cache-Control "max-age=60, public"
+ Header set Cache-Control "max-age=60, public"
+ AllowOverride All
 </filesMatch>
