@@ -171,6 +171,27 @@ body {
     }
 }
 
+.szs .logo
+.logo {
+    float: left;
+}
+@media (min-width: 940px) {
+    .logo{
+        height: 72px;
+    }    
+}
+@media (min-width: 501px) and (max-width: 940px) {
+    .logo {
+        height: calc(72vw/9.4);
+    }
+}
+@media (max-width: 501px) {
+    .logo {
+        float:initial;
+        width: calc(220vw/5);
+    }
+}
+
 
 .content {
     margin-left: 80px;
