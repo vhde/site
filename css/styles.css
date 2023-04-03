@@ -614,6 +614,14 @@ ul.szs li {
     margin-right: 10px;
     margin-left: 10px;
     vertical-align:top;
+    margin-bottom: 20px;
+} .programs .date {
+    text-align: right;
+    font-style: italic;
+    padding-bottom: 0;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 14px;
 } .programs a {
     display: block;
     font-weight: bold;
@@ -637,6 +645,10 @@ ul.szs li {
         width: calc(300vw/9.4);
         margin-right: calc(10vw/9.4);
         margin-left: calc(10vw/9.4);
+        margin-bottom: calc(20vw/9.4);
+    } .programs .date {
+        font-size: calc(14vw/9.4);
+        line-height: calc(14vw/9.4);
     } .programs a {
         margin-top: calc(12vw/9.4);
         padding-right: calc(24vw/9.4);
@@ -653,12 +665,16 @@ ul.szs li {
         display: block;
         width: calc(460vw/5);
         margin-right: calc(20vw/5);
+        margin-bottom: calc(24vw/5);
+        padding-bottom: calc(24vw/5);
+    } .programs .date {
+        font-size: calc(14vw/3);
+        line-height: calc(14vw/3);
     } .programs a {
         margin-top: calc(12vw/5);
         padding-right: calc(24vw/3);
         background-size: calc(18vw/3) calc(18vw/3);
-        margin-bottom: calc(24vw/5);
-        padding-bottom: calc(24vw/5);
+        
     }
 }
 
