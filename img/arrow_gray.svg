@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="60"
-   height="60"
-   viewBox="0 0 15.875 15.875"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
    version="1.1"
    id="svg296"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
@@ -27,9 +27,9 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      showgrid="false"
-     inkscape:zoom="5.2913966"
-     inkscape:cx="8.504371"
-     inkscape:cy="38.931121"
+     inkscape:zoom="2.6456983"
+     inkscape:cx="54.805946"
+     inkscape:cy="551.08323"
      inkscape:window-width="1366"
      inkscape:window-height="705"
      inkscape:window-x="-8"
@@ -46,47 +46,43 @@
        id="g2233"
        inkscape:label="arrow"
        transform="matrix(0.26458333,0,0,0.26458333,-88.840689,-51.27276)">
-      <g
-         id="g307"
-         transform="matrix(1.0061971,0,0,1.006197,-75.347198,-509.04661)">
-        <rect
-           style="display:inline;fill:#555555;fill-opacity:1;stroke:none;stroke-width:0.388801;stroke-dasharray:none;stroke-opacity:1"
-           id="rect3022-1"
-           width="59.630466"
-           height="59.630478"
-           x="408.59097"
-           y="698.50476"
-           inkscape:export-filename="arrow_gray.svg"
-           inkscape:export-xdpi="96"
-           inkscape:export-ydpi="96" />
-        <path
-           id="path3024-6"
-           style="display:inline;fill:#c4c4c4;fill-opacity:1;stroke-width:0.388801"
-           d="m 468.22144,698.50477 v 59.63046 h -59.63045 z"
-           sodipodi:nodetypes="cccc" />
-        <rect
-           style="display:inline;fill:#c4c4c4;fill-opacity:1;stroke:none;stroke-width:0.304241;stroke-dasharray:none;stroke-opacity:1"
-           id="rect3026-4"
-           width="46.661098"
-           height="46.661125"
-           x="415.07565"
-           y="704.98944" />
-        <path
-           id="path3028-7"
-           style="display:inline;fill:#555555;fill-opacity:1;stroke-width:0.30424"
-           d="m 461.73677,704.98943 v 46.66112 h -46.6611 z"
-           sodipodi:nodetypes="cccc" />
-        <path
-           id="path3030-8"
-           style="display:inline;fill:#555555;fill-opacity:1;stroke-width:0.145632"
-           d="m 408.59099,743.17509 v -22.33517 h 22.33514 z"
-           sodipodi:nodetypes="cccc" />
-        <path
-           id="path3032-5"
-           style="display:inline;fill:#c4c4c4;fill-opacity:1;stroke-width:0.145632"
-           d="m 445.88627,735.80007 v 22.33515 h -22.33511 z"
-           sodipodi:nodetypes="cccc" />
-      </g>
+      <rect
+         style="display:inline;fill:#555555;fill-opacity:1;stroke:none;stroke-width:0.388801;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3022-1"
+         width="59.630466"
+         height="59.630478"
+         x="408.59097"
+         y="698.50476"
+         inkscape:export-filename="arrow_gray.svg"
+         inkscape:export-xdpi="96"
+         inkscape:export-ydpi="96" />
+      <path
+         id="path3024-6"
+         style="display:inline;fill:#c4c4c4;fill-opacity:1;stroke-width:0.388801"
+         d="m 468.22144,698.50477 v 59.63046 h -59.63045 z"
+         sodipodi:nodetypes="cccc" />
+      <rect
+         style="display:inline;fill:#c4c4c4;fill-opacity:1;stroke:none;stroke-width:0.304241;stroke-dasharray:none;stroke-opacity:1"
+         id="rect3026-4"
+         width="46.661098"
+         height="46.661125"
+         x="415.07565"
+         y="704.98944" />
+      <path
+         id="path3028-7"
+         style="display:inline;fill:#555555;fill-opacity:1;stroke-width:0.30424"
+         d="m 461.73677,704.98943 v 46.66112 h -46.6611 z"
+         sodipodi:nodetypes="cccc" />
+      <path
+         id="path3030-8"
+         style="display:inline;fill:#555555;fill-opacity:1;stroke-width:0.145632"
+         d="m 408.59099,743.17509 v -22.33517 h 22.33514 z"
+         sodipodi:nodetypes="cccc" />
+      <path
+         id="path3032-5"
+         style="display:inline;fill:#c4c4c4;fill-opacity:1;stroke-width:0.145632"
+         d="m 445.88627,735.80007 v 22.33515 h -22.33511 z"
+         sodipodi:nodetypes="cccc" />
     </g>
   </g>
 </svg>
