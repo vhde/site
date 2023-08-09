@@ -1,0 +1,153 @@
+/////////////////////////
+// MENU
+/////////////////////////
+
+@menu-height: 90;
+@menu-div: 3;
+@menu-unerline: 2;
+
+@menu-inner-height: @menu-height;
+@menu-font-size: 14;
+@menu-mob-line: 18;
+@menu-items-padding: @menu-height - @hs1 - @menu-font-size;
+@logo-width: 220;
+
+.menu-body {
+    #mt.x0;
+    #mb.x0;
+    #ml.xI_;
+    #mr.xI_;
+    @media (min-width: @limit-width_) {
+        text-align: right;
+        height: ~"@{menu-inner-height}px";  
+    }
+    @media (min-width: @mob-width_) and (max-width: @limit-width) {
+        text-align: right;
+        height: ~"calc(@{menu-inner-height}vw/@{s-f})";
+    }
+    @media (max-width: @mob-width) {
+        text-align: center;
+    }
+}
+
+
+.menu-items {
+    #mt.x0;
+    #pl.x0;
+    #pr.x0;
+    @media (min-width: @limit-width_) {
+        padding-top: ~"@{menu-items-padding}px";
+        font-size: ~"@{menu-font-size}px";
+        line-height: ~"@{menu-font-size}px";
+    } 
+    @media (min-width: @mob-width_) and (max-width: @limit-width) {
+        padding-top: ~"calc(@{menu-items-padding}vw/@{s-f})";
+        font-size: ~"calc(@{menu-font-size}vw/@{s-f})";
+        line-height: ~"calc(@{menu-font-size}vw/@{s-f})";
+    } 
+    @media (max-width: @mob-width) {
+        // padding-top: ~"calc(@{menu-items-padding}vw/@{m-fg})";
+        font-size: ~"calc(@{menu-font-size}vw/@{m-ft})";
+        line-height: ~"calc(@{menu-mob-line}vw/@{m-ft})";
+        padding-top: 0px;
+    }
+    text-transform: uppercase;
+    list-style-type: none;
+
+    a {
+        transition: text-decoration 2s ease;
+        display: inline;
+        color: @color-text;
+        text-decoration: underline;
+        text-decoration-color: white;
+        #pl.x1;
+        #pr.x1;
+        @media (min-width: @limit-width_) {
+            border-right: ~"@{menu-div}px" @color-h solid;
+            text-decoration-thickness: ~"@{menu-unerline}px";
+        } 
+        @media (min-width: @mob-width_) and (max-width: @limit-width) {
+            border-right: ~"calc(@{menu-div}vw/@{s-f})" @color-h solid;
+            text-decoration-thickness: ~"calc(@{menu-unerline}vw/@{s-f})";
+        } 
+        @media (max-width: @mob-width) {
+            #pl.x0;
+            #pr.x0;
+            display: block; 
+        }
+    }
+
+    a:last-child {
+        #pr.x0;
+        border: none;    
+    }
+
+    a:hover {
+        text-decoration-color: @color-1;        
+    }
+}
+
+
+.menu hr {
+    border: 0;
+    background: @color-h;
+    #mt.x0;
+    #mb.x0;
+    @media (min-width: @limit-width_) {
+        height: ~"@{hr-height}px";
+    } 
+    @media (min-width: @mob-width_) and (max-width: @limit-width) {
+        height: ~"calc(@{hr-height}vw/@{s-f})";
+    } 
+    @media (max-width: @mob-width) {
+        height: ~"calc(@{hr-height}vw/@{m-fg})";     
+    }
+}
+
+/* logo displayed at the menu */
+
+.logo {
+    display: inline;
+    float: left;
+    background-image: url("./../img/ne-menu-logo.svg");
+    @media (min-width: @limit-width_) {
+        width: ~"@{logo-width}px";
+        height: ~"@{menu-height}px";
+        background-size: ~"@{logo-width}px";
+    } 
+    @media (min-width: @mob-width_) and (max-width: @limit-width) {
+        width: ~"calc(@{logo-width}vw/@{s-f})";
+        height: ~"calc(@{menu-height}vw/@{s-f})";
+        background-size: ~"calc(@{logo-width}vw/@{s-f})";
+    } 
+    @media (max-width: @mob-width) {
+        float: initial;
+        display: inline-block;
+        background-position: center;
+        margin: 0;
+        width: ~"calc(@{logo-width}vw/@{m-fg})";
+        height: ~"calc(@{menu-height}vw/@{m-fg})";
+        background-size: ~"calc(@{logo-width}vw/@{m-fg})";
+    }
+}
+
+// .szs .logo
+// .logo {
+//     float: left;
+// }
+// @media (min-width: 940px) {
+//     .logo{
+//         height: 72px;
+//     }    
+// }
+// @media (min-width: 501px) and (max-width: 940px) {
+//     .logo {
+//         height: calc(72vw/9.4);
+//     }
+// }
+// @media (max-width: 501px) {
+//     .logo {
+//         float:initial;
+//         width: calc(220vw/5);
+//     }
+// }

@@ -19,8 +19,8 @@
      bordercolor="#666666"
      borderopacity="1.0"
      inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
      inkscape:document-units="mm"
      showgrid="false"
      units="px"
@@ -39,13 +39,6 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <rect
-       style="display:inline;fill:#ffffff;stroke:none;stroke-width:0.255135;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:0.255135, 0.51027"
-       id="rect1312"
-       width="58.208328"
-       height="23.8125"
-       x="4.9996532e-07"
-       y="0" />
     <g
        id="g3064"
        inkscape:label="logo"
