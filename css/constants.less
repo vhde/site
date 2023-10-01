@@ -23,6 +23,7 @@
 @x2I_   : 2 * @xI + 2 * @x_;
 @x3I    : @x_ * 2 + @xI * 3;
 @x4I    : @x_ * 3 + @xI * 4; 
+@x6I    : @x_ * 5 + @xI * 6;
 // grid sizes mob
 @m_: 20;
 @m__: @m_ * 2;
@@ -449,6 +450,11 @@
         }
     }
 
+    .m0 {
+        @media @m-s {
+            padding-left: 0;
+        }
+    }
     .m_ {
         @val: @m_;
         @media @m-s {
@@ -543,6 +549,9 @@
         }
     }
 
+    .m0 {
+        padding-right: 0;
+    }
     .m_ {
         @val: @m_;
         @media @m-s {
