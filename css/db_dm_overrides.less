@@ -1,0 +1,61 @@
+@import "styles";
+
+@o-color-1: #fb9f8b;
+@o-color-2: #077b88;
+@o-color-3: #e2ccc6;
+@o-color-4: #6bb6bc;
+@o-color-5: #9dc6ca;
+
+@color-1: @o-color-2;
+// @color-h: @o-color-2;
+
+.bible-quote {
+    font-style: italic;
+    text-align: right;
+    .addr {
+        font-weight: 700;
+    }
+}
+
+.menu {
+    background: linear-gradient(70deg, 
+        white 0%,
+        white 10%,
+        @o-color-4 40%,
+        @o-color-3 60%,
+        white 90%, 
+        white 100%)
+    ;
+    a {
+        // border-color: @o-color-2;
+        color: black;
+    }
+}
+
+.logo {
+    background-image: url("./../img/db-menu-logo.svg");
+    opacity: 85%;
+}
+
+.full-name {
+    #mt.x1;
+}
+
+.img-one {
+    background-image: 
+        linear-gradient(45deg, @o-color-5 0%, white 30%), 
+        linear-gradient(45deg, white 70%, @o-color-1 100%)
+    ;
+    @val: 140;
+    @media @m-l {
+        background-size: @calc-l @calc-l, @calc-l @calc-l;
+    }   
+    @media @m-m {
+        background-size: @calc-m @calc-m, @calc-m @calc-m;
+    }
+    @media @m-s {
+        background-size: @calc-mob-grid @calc-mob-grid, @calc-mob-grid @calc-mob-grid;
+    }
+}
+
+
